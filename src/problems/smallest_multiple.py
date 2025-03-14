@@ -1,5 +1,5 @@
 import numpy as np
-import largest_prime_factor as lpf
+from problems import largest_prime_factor as lpf
 
 def exponent(num: int, limit: int) -> int:
     """
