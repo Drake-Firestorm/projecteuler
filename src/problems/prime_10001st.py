@@ -35,8 +35,8 @@ def prime_numbers(limit: int) -> int:
     c) n = (3*x*x)-(y*y) has odd number of solutions,
        x > y and n % 12 = 11
     """
-    for x in np.arange(1, int(np.sqrt(limit))):
-        for y in np.arange(1, int(np.sqrt(limit))):
+    for x in np.arange(1, int(np.sqrt(limit) + 1)):
+        for y in np.arange(1, int(np.sqrt(limit) + 1)):
     
             # a. 4x^2 + y^2     
             n = (4 * x**2) + y**2
